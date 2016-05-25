@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html data-ng-app="demoApp ">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<title>Using AngularJS Directives and Data Binding</title>
+</head>
+<body >
+	<div data-ng-controller="SimpleController">
+		Name:
+		<br />
+		<input type="text" data-ng-model="name" />
+		
+		<ul>
+			<li data-ng-repeat="personName in friends | filter:name | orderBy:'age'">{{ personName.name + ' - '+ personName.age }}</li>
+		</ul>
+	</div>
+
+<script src="Scripts/angular.min.js"></script>
+<script src="Scripts/app.js" > </script>
+</body>
+</html>

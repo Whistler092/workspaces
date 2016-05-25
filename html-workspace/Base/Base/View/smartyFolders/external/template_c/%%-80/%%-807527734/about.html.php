@@ -1,0 +1,110 @@
+<?php /* Smarty version 2.6.1, created on 2014-02-01 18:40:59
+         compiled from about.html */ ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Scripts s.a.s</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HoN" content="">
+    <meta name="HoN" content="">
+    
+    <link href="View/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="View/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="View/assets/css/docs.css" rel="stylesheet">
+    <link href="View/assets/css/thinkercss.css" rel="stylesheet">
+   
+    <script src="View/assets/js/jquery.js"></script>
+    <script src="View/js/about-control.js"></script>
+    <!-- Modal -->
+    <script src="View/assets/js/tkjs/jquery.leanModal.min.js"></script>
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div id ="menumain">
+      
+      <div class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="navbar-inner">
+	        <div class="container">
+	          <div class="nav-collapse collapse">
+	            <ul class="nav">
+
+	              <li class="active">
+	                <a href="#" class="classInicio"><?php echo $this->_tpl_vars['home']; ?>
+</a>
+	              </li>
+	              
+	            </ul>
+	          </div>
+	        </div>
+	      </div>
+	    </div>   
+	     
+    </div>
+    
+   
+    
+    <!-- Contenido
+    =================================================== -->
+	<div id = "about">
+	  <!-- Contenido de la Pagina-->
+	 <div class="marketing">
+	   
+	    <br>
+
+			<div class="classAbout">
+
+				<div style="text-align: center;">
+					<p>
+						<b>Scripts s.a.s</b>
+					</p>
+					<p><?php echo $this->_tpl_vars['Text1']; ?>
+</p>
+					<p><?php echo $this->_tpl_vars['Text2']; ?>
+</p>
+					<p><?php echo $this->_tpl_vars['Text3']; ?>
+</p>
+					<p><?php echo $this->_tpl_vars['Text4']; ?>
+</p>
+					<p>
+						<b>Copyrigth 2014 Scripts s.a.s</b>
+					</p>
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+	  
+	</div>
+	
+	
+	<!-- Modal About-->
+	
+	<div id= "honAbout" style="display: none;">
+	  <img src="View/assets/img/wilson.png">
+	  <h3 style="text-align: center;">HoN</h3>
+	</div>
+	
+	<!--Fin Modal About-->
+   
+
+
+
+    <!-- Footer -->
+    
+     <!--
+    <footer style="min-height: 27px; "> 
+         <a rel="leanModal" href="#honAbout" class = "classThinker"><img src="View/assets/img/thinkerIII.png" width="100px" align="right"></a>
+    </footer>
+     -->
+
+  </body>
+</html>
+
+	

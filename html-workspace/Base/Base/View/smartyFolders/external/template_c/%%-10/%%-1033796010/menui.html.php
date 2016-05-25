@@ -1,0 +1,65 @@
+<?php /* Smarty version 2.6.1, created on 2013-04-05 21:41:52
+         compiled from menui.html */ ?>
+ <script src="View/js/menui-control.js"></script>
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span> 
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<div class="nav-collapse collapse">
+				<ul class="nav" >
+				
+				    <li class="">
+					   <!--Cambio Clave -->
+						      <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">Cambio Clave</a>
+						      <div id = "CambioClave" class="dropdown-menu">
+						        <form style="margin: 0px" accept-charset="UTF-8" action="/sessions" method="post">
+						           <div style="margin:0;padding:0;display:inline">
+							           <input name="utf8" type="hidden" value="" />
+							           <input name="change_token" type="hidden" value="" />
+						           </div>
+						           <fieldset class='textbox' style="padding:10px">
+						              <input style="margin-top: 8px" type="password" placeholder="Clave" id="txtClave" />
+						              <input style="margin-top: 8px" type="password" placeholder="Nueva Clave" id="txtNuevaClave" />
+						              <input style="margin-top: 8px" type="password" placeholder="Repita Clave" id="txtRepitaClave" />
+						              <br>
+						              <input id="btnAceptar" class="btn-primary" name="Aceptar" type="button" value="Cambiar Clave" onclick="action_CambioClave();" />
+						            </fieldset>
+						         </form>
+						       </div>
+						<!--Fin Cambio Clave-->
+					</li>
+					
+					<li class="">
+					   <a href="#" class="classImprimoUltimo">ReImprimir </a>
+					</li>
+					
+					<li class="dropdown">
+					    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Arqueo</a>
+					    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+						  <li><a href="#" class="classArqueo">Arqueo Pantalla</a></li>
+						  <li class="divider"></li>
+						  <li><a href="#" class="classArqueoImp">Arqueo Impresion</a></li>
+						</ul>
+					</li>
+
+					<li class="">
+					   <a href="#" class="classCierraSesion" >Cerrar sesi&oacuten</a>
+					</li>
+		
+		            <li class="active classUsuario">
+					    <a href='#' class='classDatosUsuario'><?php echo $this->_tpl_vars['sbSessionName']; ?>
+</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
