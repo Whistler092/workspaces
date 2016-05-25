@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Blog_Reader.DetailViewController.configureView (Blog_Reader.DetailViewController)() -&gt; ():DetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationItem.titleView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Blog_Reader.MasterViewController.fetchedResultsController.getter : ObjectiveC.NSFetchedResultsController:MasterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_fetchedResultsController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

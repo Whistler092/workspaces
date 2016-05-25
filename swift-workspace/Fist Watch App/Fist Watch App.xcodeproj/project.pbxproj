@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA9BC85A1B654106007F2C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BC8591B654106007F2C03 /* AppDelegate.swift */; };
+		EA9BC85D1B654107007F2C03 /* Fist_Watch_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA9BC85B1B654107007F2C03 /* Fist_Watch_App.xcdatamodeld */; };
+		EA9BC85F1B654107007F2C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BC85E1B654107007F2C03 /* ViewController.swift */; };
+		EA9BC8621B654107007F2C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9BC8601B654107007F2C03 /* Main.storyboard */; };
+		EA9BC8641B654107007F2C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9BC8631B654107007F2C03 /* Images.xcassets */; };
+		EA9BC8671B654107007F2C03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9BC8651B654107007F2C03 /* LaunchScreen.xib */; };
+		EA9BC8731B654107007F2C03 /* Fist_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BC8721B654107007F2C03 /* Fist_Watch_AppTests.swift */; };
+		EA9BC8851B654221007F2C03 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BC8841B654221007F2C03 /* InterfaceController.swift */; };
+		EA9BC8871B654221007F2C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9BC8861B654221007F2C03 /* Images.xcassets */; };
+		EA9BC88B1B654221007F2C03 /* Fist Watch App WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = EA9BC88A1B654221007F2C03 /* Fist Watch App WatchKit App.app */; };
+		EA9BC8931B654221007F2C03 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9BC8911B654221007F2C03 /* Interface.storyboard */; };
+		EA9BC8951B654221007F2C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9BC8941B654221007F2C03 /* Images.xcassets */; };
+		EA9BC8981B654221007F2C03 /* Fist Watch App WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EA9BC8801B654220007F2C03 /* Fist Watch App WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA9BC86D1B654107007F2C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9BC84C1B654106007F2C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9BC8531B654106007F2C03;
+			remoteInfo = "Fist Watch App";
+		};
+		EA9BC88C1B654221007F2C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9BC84C1B654106007F2C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9BC8891B654221007F2C03;
+			remoteInfo = "Fist Watch App WatchKit App";
+		};
+		EA9BC8961B654221007F2C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9BC84C1B654106007F2C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9BC87F1B654220007F2C03;
+			remoteInfo = "Fist Watch App WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA9BC89F1B654221007F2C03 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EA9BC8981B654221007F2C03 /* Fist Watch App WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA9BC8541B654106007F2C03 /* Fist Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fist Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9BC8581B654106007F2C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9BC8591B654106007F2C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA9BC85C1B654107007F2C03 /* Fist_Watch_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fist_Watch_App.xcdatamodel; sourceTree = "<group>"; };
+		EA9BC85E1B654107007F2C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA9BC8611B654107007F2C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA9BC8631B654107007F2C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA9BC8661B654107007F2C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA9BC86C1B654107007F2C03 /* Fist Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fist Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9BC8711B654107007F2C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9BC8721B654107007F2C03 /* Fist_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fist_Watch_AppTests.swift; sourceTree = "<group>"; };
+		EA9BC8801B654220007F2C03 /* Fist Watch App WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Fist Watch App WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9BC8831B654220007F2C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9BC8841B654221007F2C03 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EA9BC8861B654221007F2C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA9BC88A1B654221007F2C03 /* Fist Watch App WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fist Watch App WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9BC8901B654221007F2C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9BC8921B654221007F2C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EA9BC8941B654221007F2C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9BC8511B654106007F2C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BC8691B654107007F2C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BC87D1B654220007F2C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9BC84B1B654106007F2C03 = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8561B654106007F2C03 /* Fist Watch App */,
+				EA9BC86F1B654107007F2C03 /* Fist Watch AppTests */,
+				EA9BC8811B654220007F2C03 /* Fist Watch App WatchKit Extension */,
+				EA9BC88E1B654221007F2C03 /* Fist Watch App WatchKit App */,
+				EA9BC8551B654106007F2C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9BC8551B654106007F2C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8541B654106007F2C03 /* Fist Watch App.app */,
+				EA9BC86C1B654107007F2C03 /* Fist Watch AppTests.xctest */,
+				EA9BC8801B654220007F2C03 /* Fist Watch App WatchKit Extension.appex */,
+				EA9BC88A1B654221007F2C03 /* Fist Watch App WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9BC8561B654106007F2C03 /* Fist Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8591B654106007F2C03 /* AppDelegate.swift */,
+				EA9BC85E1B654107007F2C03 /* ViewController.swift */,
+				EA9BC8601B654107007F2C03 /* Main.storyboard */,
+				EA9BC8631B654107007F2C03 /* Images.xcassets */,
+				EA9BC8651B654107007F2C03 /* LaunchScreen.xib */,
+				EA9BC85B1B654107007F2C03 /* Fist_Watch_App.xcdatamodeld */,
+				EA9BC8571B654106007F2C03 /* Supporting Files */,
+			);
+			path = "Fist Watch App";
+			sourceTree = "<group>";
+		};
+		EA9BC8571B654106007F2C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8581B654106007F2C03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9BC86F1B654107007F2C03 /* Fist Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8721B654107007F2C03 /* Fist_Watch_AppTests.swift */,
+				EA9BC8701B654107007F2C03 /* Supporting Files */,
+			);
+			path = "Fist Watch AppTests";
+			sourceTree = "<group>";
+		};
+		EA9BC8701B654107007F2C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8711B654107007F2C03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9BC8811B654220007F2C03 /* Fist Watch App WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8841B654221007F2C03 /* InterfaceController.swift */,
+				EA9BC8861B654221007F2C03 /* Images.xcassets */,
+				EA9BC8821B654220007F2C03 /* Supporting Files */,
+			);
+			path = "Fist Watch App WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EA9BC8821B654220007F2C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8831B654220007F2C03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9BC88E1B654221007F2C03 /* Fist Watch App WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8911B654221007F2C03 /* Interface.storyboard */,
+				EA9BC8941B654221007F2C03 /* Images.xcassets */,
+				EA9BC88F1B654221007F2C03 /* Supporting Files */,
+			);
+			path = "Fist Watch App WatchKit App";
+			sourceTree = "<group>";
+		};
+		EA9BC88F1B654221007F2C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BC8901B654221007F2C03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9BC8531B654106007F2C03 /* Fist Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9BC8761B654107007F2C03 /* Build configuration list for PBXNativeTarget "Fist Watch App" */;
+			buildPhases = (
+				EA9BC8501B654106007F2C03 /* Sources */,
+				EA9BC8511B654106007F2C03 /* Frameworks */,
+				EA9BC8521B654106007F2C03 /* Resources */,
+				EA9BC89F1B654221007F2C03 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9BC8971B654221007F2C03 /* PBXTargetDependency */,
+			);
+			name = "Fist Watch App";
+			productName = "Fist Watch App";
+			productReference = EA9BC8541B654106007F2C03 /* Fist Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9BC86B1B654107007F2C03 /* Fist Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9BC8791B654107007F2C03 /* Build configuration list for PBXNativeTarget "Fist Watch AppTests" */;
+			buildPhases = (
+				EA9BC8681B654107007F2C03 /* Sources */,
+				EA9BC8691B654107007F2C03 /* Frameworks */,
+				EA9BC86A1B654107007F2C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9BC86E1B654107007F2C03 /* PBXTargetDependency */,
+			);
+			name = "Fist Watch AppTests";
+			productName = "Fist Watch AppTests";
+			productReference = EA9BC86C1B654107007F2C03 /* Fist Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA9BC87F1B654220007F2C03 /* Fist Watch App WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9BC89C1B654221007F2C03 /* Build configuration list for PBXNativeTarget "Fist Watch App WatchKit Extension" */;
+			buildPhases = (
+				EA9BC87C1B654220007F2C03 /* Sources */,
+				EA9BC87D1B654220007F2C03 /* Frameworks */,
+				EA9BC87E1B654220007F2C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9BC88D1B654221007F2C03 /* PBXTargetDependency */,
+			);
+			name = "Fist Watch App WatchKit Extension";
+			productName = "Fist Watch App WatchKit Extension";
+			productReference = EA9BC8801B654220007F2C03 /* Fist Watch App WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		EA9BC8891B654221007F2C03 /* Fist Watch App WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9BC8991B654221007F2C03 /* Build configuration list for PBXNativeTarget "Fist Watch App WatchKit App" */;
+			buildPhases = (
+				EA9BC8881B654221007F2C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fist Watch App WatchKit App";
+			productName = "Fist Watch App WatchKit App";
+			productReference = EA9BC88A1B654221007F2C03 /* Fist Watch App WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9BC84C1B654106007F2C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ramiro Andres";
+				TargetAttributes = {
+					EA9BC8531B654106007F2C03 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EA9BC86B1B654107007F2C03 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EA9BC8531B654106007F2C03;
+					};
+					EA9BC87F1B654220007F2C03 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EA9BC8891B654221007F2C03 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = EA9BC84F1B654106007F2C03 /* Build configuration list for PBXProject "Fist Watch App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9BC84B1B654106007F2C03;
+			productRefGroup = EA9BC8551B654106007F2C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9BC8531B654106007F2C03 /* Fist Watch App */,
+				EA9BC86B1B654107007F2C03 /* Fist Watch AppTests */,
+				EA9BC87F1B654220007F2C03 /* Fist Watch App WatchKit Extension */,
+				EA9BC8891B654221007F2C03 /* Fist Watch App WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9BC8521B654106007F2C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BC8621B654107007F2C03 /* Main.storyboard in Resources */,
+				EA9BC8671B654107007F2C03 /* LaunchScreen.xib in Resources */,
+				EA9BC8641B654107007F2C03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BC86A1B654107007F2C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BC87E1B654220007F2C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BC88B1B654221007F2C03 /* Fist Watch App WatchKit App.app in Resources */,
+				EA9BC8871B654221007F2C03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BC8881B654221007F2C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BC8931B654221007F2C03 /* Interface.storyboard in Resources */,
+				EA9BC8951B654221007F2C03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9BC8501B654106007F2C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BC85F1B654107007F2C03 /* ViewController.swift in Sources */,
+				EA9BC85A1B654106007F2C03 /* AppDelegate.swift in Sources */,
+				EA9BC85D1B654107007F2C03 /* Fist_Watch_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BC8681B654107007F2C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BC8731B654107007F2C03 /* Fist_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BC87C1B654220007F2C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BC8851B654221007F2C03 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA9BC86E1B654107007F2C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9BC8531B654106007F2C03 /* Fist Watch App */;
+			targetProxy = EA9BC86D1B654107007F2C03 /* PBXContainerItemProxy */;
+		};
+		EA9BC88D1B654221007F2C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9BC8891B654221007F2C03 /* Fist Watch App WatchKit App */;
+			targetProxy = EA9BC88C1B654221007F2C03 /* PBXContainerItemProxy */;
+		};
+		EA9BC8971B654221007F2C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9BC87F1B654220007F2C03 /* Fist Watch App WatchKit Extension */;
+			targetProxy = EA9BC8961B654221007F2C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA9BC8601B654107007F2C03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9BC8611B654107007F2C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA9BC8651B654107007F2C03 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9BC8661B654107007F2C03 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EA9BC8911B654221007F2C03 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9BC8921B654221007F2C03 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9BC8741B654107007F2C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA9BC8751B654107007F2C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9BC8771B654107007F2C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fist Watch App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA9BC8781B654107007F2C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fist Watch App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA9BC87A1B654107007F2C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fist Watch AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fist Watch App.app/Fist Watch App";
+			};
+			name = Debug;
+		};
+		EA9BC87B1B654107007F2C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fist Watch AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fist Watch App.app/Fist Watch App";
+			};
+			name = Release;
+		};
+		EA9BC89A1B654221007F2C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Fist_Watch_App_WatchKit_Extension;
+				INFOPLIST_FILE = "Fist Watch App WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		EA9BC89B1B654221007F2C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Fist_Watch_App_WatchKit_Extension;
+				INFOPLIST_FILE = "Fist Watch App WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		EA9BC89D1B654221007F2C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fist Watch App WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA9BC89E1B654221007F2C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fist Watch App WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9BC84F1B654106007F2C03 /* Build configuration list for PBXProject "Fist Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9BC8741B654107007F2C03 /* Debug */,
+				EA9BC8751B654107007F2C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9BC8761B654107007F2C03 /* Build configuration list for PBXNativeTarget "Fist Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9BC8771B654107007F2C03 /* Debug */,
+				EA9BC8781B654107007F2C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA9BC8791B654107007F2C03 /* Build configuration list for PBXNativeTarget "Fist Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9BC87A1B654107007F2C03 /* Debug */,
+				EA9BC87B1B654107007F2C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA9BC8991B654221007F2C03 /* Build configuration list for PBXNativeTarget "Fist Watch App WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9BC89A1B654221007F2C03 /* Debug */,
+				EA9BC89B1B654221007F2C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA9BC89C1B654221007F2C03 /* Build configuration list for PBXNativeTarget "Fist Watch App WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9BC89D1B654221007F2C03 /* Debug */,
+				EA9BC89E1B654221007F2C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA9BC85B1B654107007F2C03 /* Fist_Watch_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA9BC85C1B654107007F2C03 /* Fist_Watch_App.xcdatamodel */,
+			);
+			currentVersion = EA9BC85C1B654107007F2C03 /* Fist_Watch_App.xcdatamodel */;
+			path = Fist_Watch_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA9BC84C1B654106007F2C03 /* Project object */;
+}
